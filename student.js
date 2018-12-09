@@ -8,7 +8,6 @@ class Student {
             age: age,
             isFemale: isFemale
         };
-
         listStudent.push(student);
     };
 
@@ -49,7 +48,7 @@ Student.addStudent('Phong', 12, true);
 Student.addStudent('Nhi', 12, true);
 Student.addStudent('Tan', 12, true);
 Student.addStudent('Hien', 12, true)
-Student.getStudentByName('n');
-Student.deleteStudentByName('m');
-Student.getStudentByIndex('fdf');
+Student.getStudentByName('Nhi');
+Student.deleteStudentByName('Phong');
+Student.getStudentByIndex(1);
 
